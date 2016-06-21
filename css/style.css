@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: #3b2064;
+  color: #adb7bd;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.jumbotron {
+  text-align: center;
+  background: none; }
+  .jumbotron h1 {
+    color: #ffffff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 40px;
+    line-height: 48px; }
+  .jumbotron .lead {
+    color: #ffffff; }
+
+.controls,
+.channels,
+.footer {
+  padding: 20px 5px; }
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 600px; } }
+.footer {
+  padding-top: 20px;
+  text-align: center; }
+
+.filters .btn {
+  font-family: "Orbitron", sans-serif;
+  border-radius: 0;
+  outline: none !important; }
+
+.list-group-item:first-child {
+  border-radius: 0; }
+
+.channel h4 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 1em; }
+.channel .img-rounded {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border: 1px solid #6441a4; }
+
+a.list-group-item:hover {
+  border-color: #6441a4; }
+
+.callout {
+  background: #fe921f;
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  font-size: .75em;
+  letter-spacing: .1em;
+  display: inline-block;
+  padding: 0 20px;
+  min-width: 12em;
+  text-align: center;
+  text-transform: uppercase;
+  float: right; }
+
+.failure {
+  background: #57320B; }
+
+/*# sourceMappingURL=style.css.map */
